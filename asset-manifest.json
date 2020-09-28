@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-pizza-builder/static/css/main.70d2c00a.chunk.css",
+    "main.js": "/react-pizza-builder/static/js/main.7b36071f.chunk.js",
+    "main.js.map": "/react-pizza-builder/static/js/main.7b36071f.chunk.js.map",
+    "runtime-main.js": "/react-pizza-builder/static/js/runtime-main.ba901bf6.js",
+    "runtime-main.js.map": "/react-pizza-builder/static/js/runtime-main.ba901bf6.js.map",
+    "static/js/2.4a47bfe0.chunk.js": "/react-pizza-builder/static/js/2.4a47bfe0.chunk.js",
+    "static/js/2.4a47bfe0.chunk.js.map": "/react-pizza-builder/static/js/2.4a47bfe0.chunk.js.map",
+    "index.html": "/react-pizza-builder/index.html",
+    "precache-manifest.5ee04f3774bc20f8b265d2c0ec6d7929.js": "/react-pizza-builder/precache-manifest.5ee04f3774bc20f8b265d2c0ec6d7929.js",
+    "service-worker.js": "/react-pizza-builder/service-worker.js",
+    "static/css/main.70d2c00a.chunk.css.map": "/react-pizza-builder/static/css/main.70d2c00a.chunk.css.map",
+    "static/js/2.4a47bfe0.chunk.js.LICENSE.txt": "/react-pizza-builder/static/js/2.4a47bfe0.chunk.js.LICENSE.txt",
+    "static/media/BaseCheese.png": "/react-pizza-builder/static/media/BaseCheese.204b89ab.png",
+    "static/media/Basil.png": "/react-pizza-builder/static/media/Basil.871c221e.png",
+    "static/media/Mushroom.png": "/react-pizza-builder/static/media/Mushroom.4d30186a.png",
+    "static/media/Olive.png": "/react-pizza-builder/static/media/Olive.a40a72f1.png",
+    "static/media/Pineapple.png": "/react-pizza-builder/static/media/Pineapple.a2c5e05b.png",
+    "static/media/PizzaBase.png": "/react-pizza-builder/static/media/PizzaBase.e87ca321.png",
+    "static/media/PizzaMan.png": "/react-pizza-builder/static/media/PizzaMan.22551d46.png",
+    "static/media/Tomato.png": "/react-pizza-builder/static/media/Tomato.5cada894.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba901bf6.js",
+    "static/js/2.4a47bfe0.chunk.js",
+    "static/css/main.70d2c00a.chunk.css",
+    "static/js/main.7b36071f.chunk.js"
+  ]
+}
