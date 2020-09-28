@@ -26,7 +26,7 @@ function App() {
   return (
     <div>
     <Header />
-    <BrowserRouter>
+    <BrowserRouter basename='/react-pizza-builder/'>
       <Switch>
         <Route exact path='/'><Customize ingredients={ingredients} setIngredients={setIngredients}/></Route>
         <Route exact path='/checkout'><Checkout ingredients={ingredients} setIngredients={setIngredients}/></Route>
