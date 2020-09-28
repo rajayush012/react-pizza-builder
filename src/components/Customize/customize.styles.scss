@@ -1,0 +1,14 @@
+.customize{
+    padding: 20px;
+    display: flex;
+
+    .image-box{
+        flex: 1;
+        border: 2px solid black;
+    }
+
+    .options{
+        flex: 1;
+        border: 2px solid black;
+    }
+}
