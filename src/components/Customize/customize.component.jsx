@@ -12,13 +12,16 @@ import Basil from "../../assets/Basil.png";
 import Tomato from "../../assets/Tomato.png";
 
 export default function Customize({ingredients, setIngredients}) {
-    //console.log(JSON.stringify(ingredients))
+    console.log(JSON.stringify(ingredients))
     let history = useHistory()
     const onChange = (event,name) => {
         //console.log(ingredients)
+        //localStorage.clear();
         let newIngredients = JSON.parse(JSON.stringify(ingredients));
         newIngredients[name] = event;
         setIngredients(newIngredients);
+        localStorage.setItem('ingredients', JSON.stringify(newIngredients))
+        //console.log(localStorage)
     }
 
 
@@ -103,6 +106,7 @@ export default function Customize({ingredients, setIngredients}) {
                 </div>
             </div>
             <div className='options'>
+            <h1>Choose your toppings</h1>
             <label className="container-checkbox">
             Pineapple
             <input

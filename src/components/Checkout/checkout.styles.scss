@@ -1,0 +1,36 @@
+.checkout{
+    padding: 50px;
+    
+    .my-orders{
+        font-size: 30px;
+        text-transform: capitalize;
+        text-align: center;
+
+        .delete{
+            cursor: pointer;
+            color: red;
+            transition: 0.3s;
+            &:hover{
+                color: maroon;
+            }
+        }
+
+        .back{
+            &:hover{
+                background-color: #DC143C;
+                color: white;
+                
+            }
+        }
+
+        .confirm{
+            &:hover{
+                background-color:palegreen;
+                color: black;
+                
+            }
+        }
+    }
+
+
+}
