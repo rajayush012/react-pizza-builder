@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import Header from './components/Header/header.component';
@@ -17,11 +17,11 @@ function App() {
     tomato: false,
   });
 
-  useEffect(()=>{
-   // localStorage.clear();
-    const data = localStorage.getItem('ingredients')
-    setIngredients(JSON.parse(data));
-  },[])
+  // useEffect(()=>{
+  //  // localStorage.clear();
+  //   //const data = localStorage.getItem('ingredients')
+  //   setIngredients(JSON.parse(data));
+  // },[])
 
   return (
     <div>

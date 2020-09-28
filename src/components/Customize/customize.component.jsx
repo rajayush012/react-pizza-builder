@@ -20,7 +20,7 @@ export default function Customize({ingredients, setIngredients}) {
         let newIngredients = JSON.parse(JSON.stringify(ingredients));
         newIngredients[name] = event;
         setIngredients(newIngredients);
-        localStorage.setItem('ingredients', JSON.stringify(newIngredients))
+        //localStorage.setItem('ingredients', JSON.stringify(newIngredients))
         //console.log(localStorage)
     }
 
