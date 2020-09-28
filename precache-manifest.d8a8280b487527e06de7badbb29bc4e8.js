@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00fae7c49214750f9aba0a0b8de09f59",
+    "revision": "5b24721baac3d55c06762d479ea5784d",
     "url": "/react-pizza-builder/index.html"
   },
   {
