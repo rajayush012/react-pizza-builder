@@ -27,7 +27,7 @@ export default function Checkout({ingredients, setIngredients}) {
     return (
         <div className='checkout'>
            { !success&&(<div className='my-orders'>
-                <h1>My Ingridients</h1>
+                <h1>My Ingredients</h1><hr/>
                 <div>
                     {Object.keys(ingredients)
                         .filter(indgredient=> ingredients[indgredient])
